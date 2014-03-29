@@ -2,6 +2,7 @@ var getHistory = function(callback) {
     chrome.storage.sync.get("history", function(data) {
         callback(data.history);
     });
+    debugger;
 };
 
 var doSearch = function(term, doNotSave) {
@@ -9,7 +10,7 @@ var doSearch = function(term, doNotSave) {
         saveTerm(term);
     }
 
-    var destination = "http://google.com/#q=" + encodeURIComponent(term);
+    var destination = "https://search.wdf.sap.corp/ui/#query="+encodeURIComponent(term)+"&startindex=1";
 
     chrome.tabs.getSelected(null, function(tab){
         chrome.tabs.update(tab.id, {url: destination});

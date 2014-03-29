@@ -1,0 +1,79 @@
+
+#cpsearchheader,
+#guidedsearch .searchbox a.gwt-Anchor,
+.GE2IM0IBMP-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-sapediaTagline,
+.metainfo,
+.GE2IM0IBPN-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-moreless,
+.GE2IM0IBCR-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-sidebarSectionEnabler.GE2IM0IBPK-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-enablerClosed,
+.searchbox a,
+.bbEmpty,
+.bbPanel,
+.bbPages,
+.bbLeft,
+.bbPanelFixed .float_right,
+.GE2IM0IBEH-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-boxhead span,
+a.requestContentLink
+{
+    display:none !important;
+}
+
+.bbPanel {
+    border: none;
+}
+
+.GE2IM0IBIP-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-sapedia {
+    border-top: none !important;
+    margin-top: 0 !important;
+}
+
+/*Search Bar and Button*/
+.searchbox {
+    margin-left: 200px;
+}
+
+#guidedsearch .GE2IM0IBNP-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-searchBoxExt1 {
+    width: 490px !important;
+}
+#guidedsearch .GE2IM0IBOP-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-searchBoxExt2 input {
+    width: 480px !important;
+}
+
+
+.bbPanelHeader {
+    float:right !important;
+    color: #787878;
+    font-size: 10px !important;
+}
+
+.bbPanelFixed {
+    height: 235px !important;
+}
+
+.bbControls {
+    margin:0 0 0 0 !important;
+    width: 100% !important;
+    padding-right: 12px;
+}
+
+#guidedsearch .sponsoredContentNewBackground {
+    background: white !important;
+    margin-left: -12px;
+}
+
+.GE2IM0IBLP-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-sapediaMorelink {
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.GE2IM0IBKP-com-sap-ca-searchcons-search-ui-gwt-client-resources-NewSearchModuleCssResource-sapediaHeader {
+    color:grey !important;
+}
+
+#buttonspanel {
+    margin-top: -5px;
+}
+
+#guidedsearch #searchresults {
+    padding: 15px 0 0 0 !important;
+}
